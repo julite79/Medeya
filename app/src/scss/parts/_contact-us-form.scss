@@ -1,0 +1,94 @@
+.section-main .contact-form {
+display: none;
+  z-index: 120;
+  position: absolute;
+  background: rgba(102, 102, 102, 0.5);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+.contact-us{
+  margin: 100px 35%;
+}
+  form {
+    font-family: $Lato;
+    opacity: 0.99;
+    background-color: $white;
+    padding: 50px;
+    width: 600px;
+.close {
+  margin-top: -30px;
+  margin-right: -25px;
+  display: inline-block;
+  cursor: pointer;
+  span{
+  color: $black;
+  font-size: 3rem;
+  font-weight: 350;
+}
+}
+    .close:hover{
+      span{
+        color: $gray-beige;
+      }
+    }
+
+    h4 {
+      font-family: $Playfair;
+      padding-top: 30px;
+    }
+
+    .form-control {
+      border: none;
+      border-bottom: 2px solid #979797;
+      border-radius: 0;
+    }
+
+    span {
+      color: $light-red;
+    }
+
+    .form-check {
+      margin: 20px auto;
+    }
+
+    .form-check-input.is-invalid ~ .form-check-label {
+      color: $black;
+    }
+
+    label {
+      a {
+        color: $brown;
+      }
+    }
+
+    .btn-secondary {
+      width: 90%;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}
+.section-main #contact-form:target{
+  display: block;
+}
+.section-main .container a.contact-button{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 155;
+  img{
+    position: relative;
+    top: 70px;
+    right: 65px;
+  }
+}
+@media (max-width: 992px){
+  .section-main .container a.contact-button{
+    left: 0;
+  }
+}

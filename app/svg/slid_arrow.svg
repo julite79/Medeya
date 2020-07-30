@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0d0c0c;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="slid_arrow" data-name="slid arrow" transform="translate(44.563 43.608) rotate(180)">
+    <g id="Ellipse_11" data-name="Ellipse 11" class="cls-1" transform="translate(0.562 -0.392)">
+      <circle class="cls-3" cx="22" cy="22" r="22"/>
+      <circle class="cls-4" cx="22" cy="22" r="21"/>
+    </g>
+    <path id="Path_96" data-name="Path 96" class="cls-2" d="M117.708,18a.367.367,0,0,0,.265-.114l8.246-8.607a.4.4,0,0,0,0-.553L117.973.119a.364.364,0,0,0-.53-.01.4.4,0,0,0-.009.553l.009.01L125.424,9l-7.981,8.33a.4.4,0,0,0,0,.553A.367.367,0,0,0,117.708,18Z" transform="translate(-98.267 13.108)"/>
+  </g>
+</svg>

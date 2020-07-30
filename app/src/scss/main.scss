@@ -1,0 +1,52 @@
+//резюмируем
+/*
+1. переработать код. Разьить на составляющие
+2. убрать глупые названия классов (z-index, например)
+3. Дать Славику по жопе и сказать приготовить нормальные иконки. Пусть работает. Если он не знает как (а он знает) пусть меня набирает
+4. заменить цвета на переменные
+5. шрифты тоже сделать переменными
+6. Посмотрите как мы делали сборщик js-файлов в один, чтобы в футере был один файлик
+7. я не нашла этого в видео - часть вы об.яснили сашке а он сделал все сам в нашем проекте ((
+*/
+
+
+@import "parts/fonts";
+@import "parts/colours";
+@import "parts/btn";
+@import "parts/header";
+@import "parts/contact-us-form";
+@import "parts/courses";
+@import "parts/about-us";
+@import "parts/trainers";
+@import "parts/main-carousel";
+@import "parts/why-we";
+@import "parts/main-form";
+@import "parts/review";
+@import "parts/contact";
+@import "parts/footer";
+
+
+section {
+  font-size: 12px;
+  font-family: $Lato;
+  min-height: 100vh;
+}
+li {
+  list-style: none;
+}
+.vertical-text {
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 160;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  transition: all 0.3s linear;
+}

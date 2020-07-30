@@ -1,0 +1,77 @@
+
+.section-review{
+  background: url("../img/bg1.png");
+  margin-top: -320px;
+  .container{
+    padding-top: 190px;
+    padding-bottom: 50px;
+    .news-section-carousel.carousel .container{
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  h3{
+    font-family: $Playfair;
+    font-size: 3rem;
+    padding-bottom: 80px;
+    &.with-underline {
+
+      &:after {
+        content: '';
+        pointer-events: none;
+        display: block;
+        width: 120px;
+        margin-left: 425px;
+        border-bottom: 3px solid $brown;
+        padding-top: 8px;
+      }
+    }
+  }
+  .carousel-extra-wrap{
+    overflow: hidden;
+    height: 390px;
+  }
+
+  .carousel-controls {
+    .arrow {
+      background-size: contain;
+      background-repeat: no-repeat;
+      &.next {
+        background-image: url("../svg/slid_arrow.svg");
+
+      }
+
+      &.prev {
+        background-image: url("../svg/slid_arrow.svg");
+      }
+    }
+  }
+
+  .carousel-wrap {
+    position: relative;
+    width: 100%;
+    display: flex;
+    .item{
+      text-align: center;
+    }
+  }
+  .carousel-controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: 15px;
+  }
+  .thumbnail {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  ol.carousel-indicators{
+    bottom: unset;
+  }
+}

@@ -1,0 +1,72 @@
+
+.section-about-us {
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: -80px;
+
+  .row.left {
+    position: relative;
+    left: -12%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p.vertical-text {
+    font-size: 4rem;
+    width: 200px;
+    margin-top: 250px;
+    font-family: $Playfair;
+    &.with-underline {
+
+      &:after {
+        content: '';
+        pointer-events: none;
+        display: block;
+        width: 185px;
+        margin-left: 75px;
+        border-bottom: 2px solid $brown;
+      }
+    }
+  }
+
+  .video-box {
+    z-index: 100;
+    position: relative;
+    top: -220px;
+    background-color: black;
+    padding: 20px 0;
+
+    .video {
+      margin: 20px 0;
+    }
+  }
+}
+section.about-us-mobile{
+height: 100vh;
+  padding-top: 50px;
+.col-12{
+  text-align: center;
+  padding: 10px 20px;
+  h2 {
+    font-family: $Playfair;
+    font-size: 2rem;
+  &.with-underline {
+    &:after {
+      content: '';
+      pointer-events: none;
+      display: block;
+      width: 130px;
+      margin-left: -5px;
+      margin-top: 5px;
+      border-bottom: 4px solid $brown;
+    }
+  }
+  }
+  p{
+    font-family: $Playfair;
+    font-size: 1.2rem;
+  }
+}
+}

@@ -1,0 +1,65 @@
+
+.section-why-we {
+  background: url("../img/asset-13.png");
+  padding: 70px 0;
+  background-size: cover;
+  h3 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    &.with-underline {
+
+      &:after {
+        content: '';
+        pointer-events: none;
+        display: block;
+        width: 160px;
+        margin-left: -40px;
+        margin-top: 10px;
+        border-bottom: 4px solid $brown;
+      }
+    }
+  }
+
+  .row {
+    width: 80%;
+  }
+
+  .row.diamond {
+    padding-left: 20px;
+    img{
+      max-height: 35px;
+    }
+
+    p {
+      font-size: 1rem;
+      padding-top: 1rem;
+      padding-left: 10px;
+    }
+  }
+
+  h4 {
+    font-size: 2.1rem;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .anim-numb {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: $gray-violet;
+    margin: 10px auto;
+    padding: 0;
+    color: $white;
+  }
+
+  p {
+    text-align: center;
+    font-size: 0.83rem;
+  }
+}

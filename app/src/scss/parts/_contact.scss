@@ -1,0 +1,60 @@
+
+.section-contact{
+  background: url("../img/gradient.png"), url("../img/MASSAZ.png") center;
+  background-repeat: no-repeat;
+
+.container{
+  padding-top: 70px;
+  h3, h5{
+  font-family: $Playfair;
+  }
+h3{
+
+  font-size: 3rem;
+  padding-bottom: 20px;
+  &.with-underline {
+
+    &:after {
+      content: '';
+      pointer-events: none;
+      display: block;
+      width: 140px;
+      margin-left: 405px;
+      border-bottom: 3px solid $brown;
+      padding-top: 8px;
+    }
+  }
+}
+  .col-3.under{
+    padding-top: 30px;
+    margin-left: 50px;
+  }
+  .row{
+    padding: 30px;
+    span{
+      color: $brown;
+      margin-left: 10px;
+    }
+    a {
+      color: $black;
+      font-size: 1rem;
+      margin-right: 20px;
+    }
+
+    a:hover {
+      color: $white;
+    }
+  }
+}
+
+.container.map{
+  padding: 0;
+   width: 100vw;
+  iframe{
+    width: 120%;
+    position: relative;
+    left: -10%;
+    height: 370px;
+  }
+ }
+}

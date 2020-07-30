@@ -1,0 +1,43 @@
+
+.section-trainers {
+  background: url("../img/bg1.png");
+  padding: 70px 0;
+  h3 {
+    font-size: 2rem;
+    padding: 20px 0 0 30px;
+    font-family: $Playfair;
+    text-align: right;
+    margin-bottom: 50px;
+    &.with-underline {
+
+      &:after {
+        content: '';
+        pointer-events: none;
+        display: block;
+        width: 130px;
+        margin-left: -25px;
+        margin-top: 5px;
+        border-bottom: 2px solid $brown;
+        position: relative;
+        left: 90%;
+      }
+    }
+  }
+  .row{
+    justify-content: space-between;
+    padding-top: 20px;
+    .trainer-2{
+      margin-top: 60px;
+    }
+    h5{
+      font-family: $Playfair;
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 20px auto;
+    }
+    p{
+       text-align: center;
+       font-family: $Lato;
+     }
+  }
+}

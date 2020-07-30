@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b7b9bf;
+        opacity: 0.76;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_slider_1" data-name="Ellipse slider 1" class="cls-1" cx="7" cy="7" r="7"/>
+</svg>

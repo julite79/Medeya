@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.967" height="18.446" viewBox="0 0 12.967 18.446">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f1f1;
+      }
+    </style>
+  </defs>
+  <path id="arrow_up" data-name="arrow up" class="cls-1" d="M6.016,4.871a.654.654,0,1,1,.929.92L2.233,10.5H17.785a.655.655,0,0,1,.66.651.663.663,0,0,1-.66.66H2.233l4.713,4.7a.667.667,0,0,1,0,.929.651.651,0,0,1-.929,0L.188,11.62a.656.656,0,0,1,0-.92Z" transform="translate(17.643 0.001) rotate(90)"/>
+</svg>
