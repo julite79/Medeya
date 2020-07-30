@@ -23,20 +23,22 @@
 
   .row {
     width: 80%;
+
+    &.diamond {
+      padding-left: 20px;
+      .icon-diamond{
+        font-size: 3.5rem;
+        color: $gray-violet;
+      }
+
+      p {
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-left: 10px;
+      }
+    }
   }
 
-  .row.diamond {
-    padding-left: 20px;
-    img{
-      max-height: 35px;
-    }
-
-    p {
-      font-size: 1rem;
-      padding-top: 1rem;
-      padding-left: 10px;
-    }
-  }
 
   h4 {
     font-size: 2.1rem;
