@@ -1,11 +1,29 @@
 
 .section-contact {
-  background: url("../img/gradient.png"), url("../img/MASSAZ.png") center;
-  background-repeat: no-repeat;
 
   .container {
     padding-top: 70px;
+.mobile-city{
+  font-family: $Lato;
+  p{
+    font-size: 1.2rem;
+  }
+  .dropdown{
+    line-height: 50px;
+    border: 1px solid $gray;
+    width: 55%;
+    margin: 5px auto;
+    border-radius: 10px;
+    a{
+      color: $brown;
+      font-size: 1.2rem;
+      &:hover{
+        color: $gray;
+      }
+    }
 
+  }
+}
     h3, h5 {
       font-family: $Playfair;
     }
@@ -14,15 +32,18 @@
 
       font-size: 3rem;
       padding-bottom: 20px;
+      position: relative;
+      display: inline-block;
 
       &.with-underline {
 
         &:after {
+          position: absolute;
           content: '';
           pointer-events: none;
           display: block;
           width: 140px;
-          margin-left: 405px;
+          margin-left: -25px;
           border-bottom: 3px solid $brown;
           padding-top: 8px;
         }
@@ -62,5 +83,45 @@
         height: 370px;
       }
     }
+  }
+  .mobile-contact{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: $black;
+    p{
+      &.with-underline{
+        position: relative;
+        display: inline-block;
+        &:after {
+          position: absolute;
+          content: '';
+          pointer-events: none;
+          display: block;
+          width: 150%;
+          margin-left: -25%;
+          margin-top: 5px;
+          border-bottom: 2px solid $black;
+        }
+      }
+
+    }
+    a{
+      color: $black;
+    &:hover{
+      color: $white;
+    }}
+
+  }
+}
+@media (min-width: 993px){
+  .section-contact {
+    background: url("../img/gradient.png"), url("../img/MASSAZ.png") center;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 992px){
+  .section-contact{
+  background-color: $dark-white;
   }
 }

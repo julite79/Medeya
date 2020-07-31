@@ -5,18 +5,22 @@
   right: -12%;
 }
 h3{
+  display: inline-block;
+  position: relative;
   font-family: $Playfair;
   font-size: 2.5rem;
   margin: 70px auto 70px 50px;
   width: 70%;
   &.with-underline {
-
+display: inline-block;
+    position: relative;
     &:after {
+      position: absolute;
       content: '';
       pointer-events: none;
       display: block;
       width: 130px;
-      margin-left: -25px;
+      margin-left: -15px;
       margin-top: 5px;
       border-bottom: 2px solid $brown;
     }
@@ -34,7 +38,7 @@ h3{
     }
     .form-control{
       border: none;
-      border-bottom: 2px solid #979797;
+      border-bottom: 2px solid $dark-gray;
       border-radius: 0;
     }
     span{
@@ -63,5 +67,25 @@ h3{
     position: relative;
     top: -220px;
     z-index: 100;
+  }
+}
+@media (min-width: 993px){
+
+}
+@media (max-width: 992px){
+  .section-form{
+    min-height: 10vh;
+    h3{
+      font-size: 1.5rem;
+      margin: 10px auto;
+      text-align: center;
+    }
+   .container{
+      background-color: $gray-beige;
+     form{
+       padding: 15px;
+       margin: 10px auto;
+     }
+    }
   }
 }

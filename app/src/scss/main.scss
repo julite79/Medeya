@@ -39,15 +39,3 @@ li {
   transform: rotate(-90deg);
   transform-origin: center;
 }
-
-#myBtn {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: 160;
-  outline: none;
-  cursor: pointer;
-  text-align: center;
-  border: none;
-  transition: all 0.3s linear;
-}

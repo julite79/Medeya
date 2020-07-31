@@ -22,10 +22,10 @@
   h2 {
     font-size: 2.5rem;
     padding: 20px 0 0 20px;
-    position: relative;
 
     &.with-underline {
-
+      position: relative;
+      display: inline-block;
       &:before {
         content: '';
         position: absolute;
@@ -43,8 +43,10 @@
     font-size: 2rem;
     padding: 20px 0 0 30px;
     &.with-underline {
-
+position: relative;
+      display: inline-block;
       &:after {
+        position: absolute;
         content: '';
         pointer-events: none;
         display: block;
@@ -64,5 +66,12 @@ width: 415px;
 @media (max-width: 992px){
   .section-courses{
     background-color: $gray-beige;
+    .carousel{
+      .carousel-item{
+        flex-direction: column;
+        color: $black;
+        text-align: center;
+      }
+    }
   }
 }

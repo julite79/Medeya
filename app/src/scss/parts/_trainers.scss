@@ -1,16 +1,18 @@
 
 .section-trainers {
-  background: url("../img/bg1.png");
-  padding: 70px 0;
+  .title{
+    text-align: right;
+  }
   h3 {
     font-size: 2rem;
     padding: 20px 0 0 30px;
     font-family: $Playfair;
-    text-align: right;
     margin-bottom: 50px;
     &.with-underline {
-
+display: inline-block;
+      position: relative;
       &:after {
+        position: absolute;
         content: '';
         pointer-events: none;
         display: block;
@@ -18,8 +20,6 @@
         margin-left: -25px;
         margin-top: 5px;
         border-bottom: 2px solid $brown;
-        position: relative;
-        left: 90%;
       }
     }
   }
@@ -39,5 +39,61 @@
        text-align: center;
        font-family: $Lato;
      }
+  }
+}
+@media (min-width: 993px){
+  .section-trainers{
+    background: url("../img/bg1.png");
+    padding: 70px 0;
+  }
+}
+@media (max-width: 992px) {
+  .section-trainers {
+    background-color: $gray-beige;
+
+    .container {
+      .title {
+        text-align: center;
+      }
+    }
+    .carousel-inner{
+      background-color: $white;
+      text-align: center;
+      margin: 10px auto;
+      .img-fluid{
+        max-width: 45%;
+      }
+      h5{
+        font-size: 2rem;
+      }
+      p{
+        font-size: 1.2rem;
+      }
+    }
+    .carousel-indicators {
+      li {
+        .icon-circle-1 {
+          display: none;
+        }
+
+        &.active {
+          .icon-circle-1 {
+            display: block;
+          }
+
+          .icon-circle-2 {
+            display: none;
+          }
+        }
+
+        .icon-circle-1 {
+          font-size: 30px;
+        }
+
+        .icon-circle-2 {
+          font-size: 15px;
+        }
+      }
+    }
   }
 }

@@ -81,7 +81,7 @@
     </div>
     <!-- блок карусель -->
     <div class="container">
-        <div class="col-12 mobile-contact d-lg-none text-center">
+        <div class="col-12 mobile-contact-header d-lg-none text-center">
             <a class="col-3" href="#"><img src="svg/user.svg" alt=""></a>
             <a class="col-3" href="#"><img src="svg/Icon_feather-search.svg" alt=""></a>
             <a class="col-3" href="#"><img src="svg/Icon_feather-phone.svg" alt=""></a>
@@ -274,38 +274,39 @@
 <section class="section-courses">
     <!--mobile -->
     <div class="container d-lg-none">
-        <h2 class="with-underline">Наши курсы</h2><a name="courses"></a>
+        <div>
+        <div class="text-center"><h2 class="with-underline">Наши курсы</h2></div><a name="courses"></a></div>
         <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="carousel-caption">
-                        <img class="img-fluid" src="img/asset-3.png" alt="Первый слайд">
+
+                        <div class="col-12"><img class="img-fluid" src="img/asset-3.png" alt="Первый слайд"></div>
                         <h3>Для новичков</h3>
                         <p>Курс основ практической
                             косметологии, не требующий
                             специальной подготовки.</p>
                         <a href="#" class="btn btn-secondary">подробнее</a>
-                    </div>
+
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="img/asset-3.png" alt="второй слайд">
-                    <div class="carousel-caption">
+                    <div class="col-12"><img class="img-fluid" src="img/asset-3.png" alt="второй слайд"></div>
+
                         <h3>Для новичков</h3>
                         <p>Курс основ практической
                             косметологии, не требующий
                             специальной подготовки.</p>
                         <a href="#" class="btn btn-secondary">подробнее</a>
-                    </div>
+
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="img/asset-3.png" alt="третий слайд">
-                    <div class="carousel-caption">
+                    <div class="col-12"><img class="img-fluid" src="img/asset-3.png" alt="третий слайд"></div>
+
                         <h3>Для новичков</h3>
                         <p>Курс основ практической
                             косметологии, не требующий
                             специальной подготовки.</p>
                         <a href="#" class="btn btn-secondary">подробнее</a>
-                    </div>
+
                 </div>
 
             </div>
@@ -332,14 +333,14 @@
     <div class="container d-none d-lg-block">
         <div class="row">
             <div class="col-6">
-                <h2 class="with-underline">Наши курсы</h2><a name="courses"></a>
+                <div class="text-center"><h2 class="with-underline">Наши курсы</h2></div><a name="courses"></a>
                 <p>Подберите курс специально для себя. Пройдите путь от новичка до специалиста , или же углубите свои
                     знания. Так же, в связи с эпидемией COVID - 19, Вы можете пройти обучение онлайн!</p>
             </div>
         </div>
         <div class="row flex-row-reverse left">
             <div class="col-5">
-                <h3 class="with-underline">Для новичков</h3>
+                <div class="text-center"><h3 class="with-underline">Для новичков</h3></div>
                 <p>Курс “Косметолог - эстетист” от MEDEYA GROUP - курс основ практической косметологии, не требующий
                     специальной подготовки,подойдет даже людям без медицинского образования.
                 </p>
@@ -349,8 +350,8 @@
         </div>
         <div class="row right">
             <div class="col-5">
-                <h3 class="with-underline">Для практикующих
-                    специалистов</h3>
+                <div class="text-center"><h3 class="with-underline">Для практикующих
+                    специалистов</h3></div>
                 <p>Обучающий косметологический центр “MEDEYA GROUP” проводит базовые семинары и повышающие курсы по всем
                     косметологическим методикам.</p>
                 <a href="#" class="btn btn-secondary">подробнее</a>
@@ -359,7 +360,7 @@
         </div>
         <div class="row flex-row-reverse left">
             <div class="col-5">
-                <h3 class="with-underline">Онлайн обучение</h3>
+                <div class="text-center"><h3 class="with-underline">Онлайн обучение</h3></div>
                 <p>“Основы косметологии онлайн” от MEDEYA GROUP - курс основ практической косметологии, не требующий
                     специальной подготовки, подойдет даже людям без медицинского образования.
                 </p>
@@ -370,8 +371,8 @@
     </div>
 </section>
 <!-- About Us -->
-<section class="section-about-us">
-    <div class="container d-none d-lg-block">
+<section class="section-about-us d-none d-lg-block">
+    <div class="container ">
         <div class="row">
             <div class="col-10 row left">
                 <div class="col-7"><img src="img/asset-10.png" alt="" class="img-fluid"></div>
@@ -400,25 +401,42 @@
 <!-- why we -->
 <section class="section-why-we">
     <div class="container ">
-        <div class="col-12 .col-lg-8">
-            <h3 class="with-underline">Почему выбирают нас</h3>
+        <div class="col-12 col-lg-8">
+            <div class="text-center d-none d-lg-inline-block"><h3 class="with-underline">Почему выбирают нас</h3></div>
+            <div class="text-center d-lg-none"><h3 class="with-underline">Выбирая нас
+                Вы выбираете:</h3></div>
             <div class="row diamond">
                 <div class="col-12 col-lg-1">
                     <span class="icon-diamond"></span>
                 </div>
                 <p>80% практических занятий и 20% теории</p>
             </div>
-            <div class="row diamond"><img class="col-12 col-lg-1" src="svg/diamond.svg" alt="">
+            <div class="row diamond">
+                <div class="col-12 col-lg-1">
+                    <span class="icon-diamond"></span>
+                </div>
                 <p>Только дипломированные тренера с опытом работы от 10 лет</p></div>
-            <div class="row diamond"><img class="col-12 col-lg-1" src="svg/diamond.svg" alt="">
+            <div class="row diamond">
+                <div class="col-12 col-lg-1">
+                    <span class="icon-diamond"></span>
+                </div>
                 <p>Диплом с приложение государственного образца</p></div>
-            <div class="row diamond"><img class="col-12 col-lg-1" src="svg/diamond.svg" alt="">
+            <div class="row diamond">
+                <div class="col-12 col-lg-1">
+                    <span class="icon-diamond"></span>
+                </div>
                 <p>Дальнейшее сопровождение и помощь в трудоустройстве</p></div>
-            <div class="row diamond"><img class="col-12 col-lg-1" src="svg/diamond.svg" alt="">
+            <div class="row diamond">
+                <div class="col-12 col-lg-1">
+                <span class="icon-diamond"></span>
+            </div>
                 <p>Гибкий график обучения и индивидуальный подход</p></div>
-            <div class="row diamond"><img class="col-12 col-lg-1" src="svg/diamond.svg" alt="">
+            <div class="row diamond">
+                <div class="col-12 col-lg-1">
+                    <span class="icon-diamond"></span>
+                </div>
                 <p>Бонусы в виде скидок на косметику, семинары и другие бонусы</p></div>
-            <h4>Делимся знаниями и успехом</h4>
+            <h4 class="d-none d-lg-inline-block">Делимся знаниями и успехом</h4>
 
             <div class="row d-none d-lg-flex">
                 <div class="col">
@@ -438,10 +456,59 @@
     </div>
 </section>
 <!-- Trainers-->
-<section class="section-trainers d-none d-lg-block">
+<section class="section-trainers">
     <div class="container">
-        <h3 class="with-underline">Тренера</h3>
-        <div class="row">
+
+        <div class="title"><h3 class="with-underline">Тренера</h3></div>
+        <!-- карусель -->
+        <div id="carouselExampleIndicators3" class="d-lg-none carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                    <span class="icon-circle-1"></span>
+                    <span class="icon-circle-2"></span>
+                </li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                    <span class="icon-circle-1"></span>
+                    <span class="icon-circle-2"></span>
+                </li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                    <span class="icon-circle-1"></span>
+                    <span class="icon-circle-2"></span>
+                </li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="col-12 active"><img src="img/wanina.png" class="img-fluid" alt="">
+                        <h5>ВАНИНА ИРИНА</h5>
+                        <p>Практикующий косметолог, сертифицированный тренер компании "ANUBIS", тренер испанских массажных
+                            техник, тренер курса “Косметолог эстетист”.
+                        </p></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12"><img src="img/asset-7.png" class="img-fluid" alt="">
+                        <h5>Шилова Татьяна</h5>
+                        <p>Практикующий косметолог, сертифицированный тренер компании "ANUBIS", тренер по пилингам и
+                            практическим занятиям.
+                        </p></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12"><img src="img/asset-6.png" class="img-fluid" alt="">
+                        <h5>Кардава Оксана</h5>
+                        <p>Косметолог, дерматолог, тренер компании
+                            "MEDEYA GROUP". </p></div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="row d-none d-lg-flex">
             <div class="col-3 trainer-1"><img src="img/wanina.png" class="img-fluid" alt="">
                 <h5>ВАНИНА ИРИНА</h5>
                 <p>Практикующий косметолог, сертифицированный тренер компании "ANUBIS", тренер испанских массажных
@@ -461,9 +528,13 @@
 </section>
 <!-- The Form-->
 <section class="section-form">
+    <div class="d-lg-none text-center">
+        <img src="img/asset-f.png" class="img-fluid" alt="">
+    </div>
     <div class="container">
-        <h3 class="with-underline">Регистрируйтесь на сайте и получайте
-            скидочный купон на Ваш Email</h3>
+        <div class="d-lg-none"></div>
+        <div class="text-center"><h3 class="with-underline">Регистрируйтесь на сайте и получайте
+            скидочный купон на Ваш Email</h3></div>
         <div class="row right">
             <div class="col-10 col-lg-5">
                 <form>
@@ -508,8 +579,8 @@
 <section class="section-review">
     <div class="container">
         <div class="row-fluid">
-            <div class="page-header">
-                <h3 class="text-center with-underline">Отзывы</h3>
+            <div class="text-center">
+                <h3 class="with-underline">Отзывы</h3>
             </div>
         </div>
         <!-- карусель -->
@@ -614,21 +685,47 @@
                 <a title="Select course" href="#courses" class="btn btn-secondary">Выбрать курс</a></div>
             <!-- Индикаторы -->
             <ol class="carousel-indicators">
-                <li data-target="#testimonials" data-slide-to="0" class="active">0</li>
-                <li data-target="#testimonials" data-slide-to="1">0</li>
-                <li data-target="#testimonials" data-slide-to="2">0</li>
-                <li data-target="#testimonials" data-slide-to="3">0</li>
-                <li data-target="#testimonials" data-slide-to="4">0</li>
-                <li data-target="#testimonials" data-slide-to="5">0</li>
-                <li data-target="#testimonials" data-slide-to="6">0</li>
+                <li data-target="#testimonials" data-slide-to="0" class="active">
+                    <span class="icon-circle-1"></span>
+                    <span class="icon-circle-2"></span>
+                </li>
+                <li data-target="#testimonials" data-slide-to="1">
+                    <span class="icon-circle-1"></span>
+                    <span class="icon-circle-2"></span>
+                </li>
+                <li data-target="#testimonials" data-slide-to="2">
+                    <span class="icon-circle-1"></span>
+                    <span class="icon-circle-2"></span>
+                </li>
+                <li data-target="#testimonials" data-slide-to="3">
+                    <span class="icon-circle-1"></span>
+                    <span class="icon-circle-2"></span>
+                </li>
+                <li data-target="#testimonials" data-slide-to="4">
+                    <span class="icon-circle-1"></span>
+                    <span class="icon-circle-2"></span>
+                </li>
             </ol>
         </div><!-- /.carousel-wrap -->
-    </div>
     </div>
 </section>
 <section class="section-contact">
     <div class="container">
-        <h3 class="text-center with-underline">Контакты</h3>
+        <div class="text-center"><h3 class="text-center with-underline">Контакты</h3></div>
+        <div class="mobile-city text-center d-lg-none">
+            <p>Выбрать город:</p>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                   aria-haspopup="true" aria-expanded="false">Днепропетровск</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Киев</a>
+                    <a class="dropdown-item" href="#">Харьков</a>
+                </div>
+            </li>
+            <p>Пр-т. Дмитрия Яворницкого, 107а <br>
+                Днепропетровск <br>
+                Украина, 49038</p>
+        </div>
         <div class="row d-none d-lg-flex">
             <div class="col-12 col-md-3 col-lg-3">
                 <h5>АДРЕС:</h5>
@@ -646,9 +743,9 @@
                    href="mailto:natalypo88@gmail.com">natalypo88@gmail.com</a>
             </div>
         </div>
-        <div class="row">
-            <div class="col-8 d-none d-lg-flex">
-                <p>Мы в социальных сетях:</p>
+        <div class="row d-none d-lg-flex">
+            <div class="col-8">
+                <div class="col-12"><p>Мы в социальных сетях:</p></div>
                 <a title="Go to Youtube" href="#">YOUTUBE</a>
                 <a title="Go to INSTAGRAM" href="#">INSTAGRAM</a>
                 <a title="Go to Facebook" href="">FACEBOOK</a>
@@ -664,23 +761,34 @@
             </div>
         </div>
     </div>
+    <div class="mobile-contact d-lg-none">
+        <div class="text-center"><p class="with-underline">Пн - Пт : 09:00 - 17:00</p></div>
+        <p>+48 066 947 6096</p>
+        <a title="Send contact e-mail"
+           href="mailto:natalypo88@gmail.com">natalypo88@gmail.com</a>
+    </div>
 </section>
 <button onclick="topFunction()" id="myBtn" title="Go to top" class="d-lg-none">
-    <em><img src="svg/but-up.svg" alt=""></em>
+    <span class="icon-arr-up"><span class="path1"></span><span class="path2"></span></span>
 </button>
 <section class="section-footer">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-3 col-lg-3">
+        <div class="row social-icon text-center d-lg-none">
+            <span class="icon-instagram"></span>
+            <span class="icon-facebook"></span>
+            <span class="icon-youtube"></span>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-lg-3">
                 <p>Made with
                     <img src="svg/heart.svg" alt=heart">
                     by WebCosmonauts</p>
             </div>
-            <div>
-                <a class="col-12 col-md-6" href="#" title="Terms of Use">Пользовательское соглашение</a>
-                <a class="col-12 col-md-6" href="#" title="Privacy Policy">Политика конфидециальности</a>
+            <div class="col-12 col-lg-3">
+                <a class="col-12 col-lg-3" href="#" title="Terms of Use">Пользовательское соглашение</a></div>
+                <div class="col-12 col-lg-3"><a class="col-12 col-lg-3" href="#" title="Privacy Policy">Политика конфидециальности</a>
             </div>
-            <div class="text-right">
+            <div class="col-lg-3 text-right d-none d-lg-inline-block">
                 <a href="#" title="Go to top">Наверх<img src="svg/arrow_up.svg" alt="Go to top"></a>
             </div>
         </div>
