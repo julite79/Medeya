@@ -319,11 +319,13 @@
         font-size: 55px;
         color: #FFFFFF; }
     .section-main .container .col-12.mobile-contact-header.d-lg-none.text-center {
-      border-top: solid 4px #0D0C0C; }
-      .section-main .container .col-12.mobile-contact-header.d-lg-none.text-center a img {
-        width: 35px;
-        height: 35px;
-        margin: 15px 10px; }
+      border-top: solid 4px #0D0C0C;
+      margin: 20px auto;
+      padding-top: 10px; }
+      .section-main .container .col-12.mobile-contact-header.d-lg-none.text-center span {
+        font-size: 2rem;
+        margin: 15px 10px;
+        color: #0D0C0C; }
     .section-main .mobile-header {
       height: 65vh;
       padding: 5px;
